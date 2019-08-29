@@ -1,5 +1,5 @@
 import React from 'react';
 
-export function PageNotfound(){
+export function PageNotFound(){
     return <h1>Página sobre página não encontrada</h1>
 };
