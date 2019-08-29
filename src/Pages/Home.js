@@ -18,9 +18,9 @@ export function Home() {
             console.error(error);
           });
       }, []);
-      console.log("Data depois do useEffect", data);
+      console.log("Data:", data);
 
     return (
-        <pre>{JSON.stringify(data)}</pre>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
     );
 };
