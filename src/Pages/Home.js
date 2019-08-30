@@ -1,5 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
+function Digimon(props){
+  return (
+    <div>
+      <p>{props.id}</p>
+      <p>{props.name}</p>
+      <p>{props.img}</p>
+      <p>{props.level}</p>
+    </div>
+  );
+} 
+
 export function Home() {
 
     const[data, setData] = useState([]);
